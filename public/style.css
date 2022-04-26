@@ -91,6 +91,9 @@ color: #fff;
   font-size: 70px;
   margin-top: 80px;
 }
+#flipOne{
+  transform: translateY(-300%);
+}
 
 #multi{
   width: 50%;
