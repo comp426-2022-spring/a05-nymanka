@@ -130,6 +130,7 @@ app.use(function (req, res) {
     res.type("text/plain");
 });
 
+//Teling the server has stopped
 process.on('SIGTERM', () => {
     server.close(() => {
         console.log('Server stopped');
