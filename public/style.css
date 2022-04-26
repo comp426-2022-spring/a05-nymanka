@@ -94,6 +94,15 @@ color: #fff;
 #flipOne{
   transform: translateY(-300%);
 }
+#single p{
+  transform: translateY(-800%);
+}
+#quarter{
+  transform: translateY(-250%);
+}
+#result{
+  transform: translateY(-250%);
+}
 
 #multi{
   width: 50%;
@@ -110,6 +119,12 @@ color: #fff;
   transform: translateY(-200%);
   font-size: 70px;
   margin-top: 80px;
+}
+#multi h2{
+  transform: translateY(-400%);
+}
+#coins {
+  transform: translateY(-700%);
 }
 #results_tbl{
   width: 50%;
@@ -131,12 +146,26 @@ color: #fff;
   text-align: center;
   color: #fff;
 }
+#guessHeads{
+  transform: translateY(-300%);
+}
+#guessTails{
+  transform: translateY(-300%);
+}
 
 #guess h1{
   transform: translateY(-200%);
   font-size: 70px;
   margin-top: 80px;
 }
+#guess p{
+  transform: translateY(-600%);
+}
+
+#quarterActual{
+  transform: translateY(-200%);
+}
+
 /*Design button instance to make it uniform to the page*/
 button{
   width: 200px;
