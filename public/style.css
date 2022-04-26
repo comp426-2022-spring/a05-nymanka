@@ -163,7 +163,10 @@ color: #fff;
 }
 
 #quarterActual{
-  transform: translateY(-200%);
+  transform: translateY(-220%);
+}
+#quarterGuess{
+  transform: translateY(-220%);
 }
 
 /*Design button instance to make it uniform to the page*/
