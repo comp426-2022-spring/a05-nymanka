@@ -35,4 +35,4 @@ if(row === undefined){
 }
 
 //export module to be used in other places
-module.exports = db;
+module.exports = db;  
