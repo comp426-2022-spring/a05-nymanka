@@ -86,38 +86,54 @@ color: #fff;
   text-align: center;
   color: #fff;
   }
+#single h1{
+  transform: translateY(-200%);
+  font-size: 70px;
+  margin-top: 80px;
+}
 
-  #multi{
-    width: 50%;
-    position: absolute;
-    top: 50%;
-    /*vertically center*/
-    transform: translateY(-60%);
-    transform: translateX(50%);
-    text-align: center;
-    color: #fff;
-    }
-  #results_tbl{
-    width: 50%;
-    position: absolute;
-    top: 50%;
-    /*vertically center*/
-    transform: translateY(-60%);
-    transform: translateX(50%);
-    text-align: center;
-    color: #fff;
-    }
-    #guess{
-      width: 50%;
-      position: absolute;
-      top: 50%;
-      /*vertically center*/
-      transform: translateY(-60%);
-      transform: translateX(50%);
-      text-align: center;
-      color: #fff;
-      }
+#multi{
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  /*vertically center*/
+  transform: translateY(-60%);
+  transform: translateX(50%);
+  text-align: center;
+  color: #fff;
+  }
 
+#multi h1{
+  transform: translateY(-200%);
+  font-size: 70px;
+  margin-top: 80px;
+}
+#results_tbl{
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  /*vertically center*/
+  transform: translateY(-60%);
+  transform: translateX(50%);
+  text-align: center;
+  color: #fff;
+}
+#guess{
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  /*vertically center*/
+  transform: translateY(-60%);
+  transform: translateX(50%);
+  text-align: center;
+  color: #fff;
+}
+
+#guess h1{
+  transform: translateY(-200%);
+  font-size: 70px;
+  margin-top: 80px;
+}
 /*Design button instance to make it uniform to the page*/
 button{
   width: 200px;
