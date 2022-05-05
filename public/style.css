@@ -13,3 +13,191 @@ img.bigcoin {
 img.smallcoin {
   width: 50px;
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+/*gives us the design of the background */
+.banner{
+    width: 100%;
+    height: 100vh;
+    /*add colored layer over image*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url("assets/img/back.png");
+    background-size: cover;
+    background-position: center;
+}
+/*Design of the navigation bar*/
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*Design for the logo*/
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+
+
+/*Designs the content of the page*/
+#home{
+width: 50%;
+position: absolute;
+top: 50%;
+/*vertically center*/
+transform: translateY(-60%);
+transform: translateX(50%);
+text-align: center;
+color: #fff;
+}
+/*changes font size and margin from the top of the header*/
+#home h1{
+  transform: translateY(-200%);
+  font-size: 70px;
+  margin-top: 80px;
+}
+/*changes font size and margin from the top of the header*/
+#home h2{
+  transform: translateY(-400%);
+  font-size: 30px;
+  margin-top: 40px;
+}
+/*changes font size and margin from the top of the paragraph*/
+#home p{
+  transform: translateY(-500%);
+  text-align: center;
+  color: #fff;  
+}
+
+#single{
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  /*vertically center*/
+  transform: translateY(-60%);
+  transform: translateX(50%);
+  text-align: center;
+  color: #fff;
+  }
+#single h1{
+  transform: translateY(-200%);
+  font-size: 70px;
+  margin-top: 80px;
+}
+#flipOne{
+  transform: translateY(-300%);
+}
+#single p{
+  transform: translateY(-800%);
+}
+#quarter{
+  transform: translateY(-250%);
+}
+#result{
+  transform: translateY(-250%);
+}
+
+#multi{
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  /*vertically center*/
+  transform: translateY(-60%);
+  transform: translateX(50%);
+  text-align: center;
+  color: #fff;
+  }
+
+#multi h1{
+  transform: translateY(-200%);
+  font-size: 70px;
+  margin-top: 80px;
+}
+#multi h2{
+  transform: translateY(-400%);
+}
+#coins {
+  transform: translateY(-700%);
+}
+#results_tbl{
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  /*vertically center*/
+  transform: translateY(-60%);
+  transform: translateX(50%);
+  text-align: center;
+  color: #fff;
+}
+#guess{
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  /*vertically center*/
+  transform: translateY(-60%);
+  transform: translateX(50%);
+  text-align: center;
+  color: #fff;
+}
+#guessHeads{
+  transform: translateY(-300%);
+}
+#guessTails{
+  transform: translateY(-300%);
+}
+
+#guess h1{
+  transform: translateY(-200%);
+  font-size: 70px;
+  margin-top: 80px;
+}
+#guess p{
+  transform: translateY(-600%);
+}
+
+#quarterActual{
+  transform: translateY(-220%);
+}
+#quarterGuess{
+  transform: translateY(-220%);
+}
+
+/*Design button instance to make it uniform to the page*/
+button{
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #700096;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+/*Makes background color of the button*/
+span{
+  background: #700096;
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+/*When the button is hovered over then the colored background fills the button*/
+button:hover span{
+  width:100%;
+}
+
